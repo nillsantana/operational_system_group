@@ -9,6 +9,8 @@
 
 extern int errno;
 
+void readDirectory(char *directory_name);
+
 int main(int argc, char** argv){
     struct dirent *de;
     int directories[2];
@@ -28,7 +30,7 @@ int main(int argc, char** argv){
 
     while ((de = readdir(dir_src)) != NULL){
         printf("%s -- ", de->d_name);
-        printf("%c\n",de->d_type);
+        printf("%d\n",de->d_type);
 
     }
 

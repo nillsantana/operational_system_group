@@ -32,8 +32,7 @@ FileManagement checkFiles(char** files);
 FileManagement openFiles(char** file);
 
 /* A função writeFile Escreve os dados de um buffer no arquivo */
-FileManagement writeFile(char** file, char** buffer);
-
+void writeFile(int source_file, int destiny_file, char *buffer);
 
 
 #endif /* CUSTOMFUNCTIONS_H */

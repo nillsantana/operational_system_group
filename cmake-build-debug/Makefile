@@ -143,32 +143,32 @@ operational_system_group/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/operational_system_group.dir/build.make CMakeFiles/operational_system_group.dir/build
 .PHONY : operational_system_group/fast
 
-main.o: main.c.o
+filecopy.o: filecopy.c.o
 
-.PHONY : main.o
+.PHONY : filecopy.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operational_system_group.dir/build.make CMakeFiles/operational_system_group.dir/main.c.o
-.PHONY : main.c.o
+filecopy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operational_system_group.dir/build.make CMakeFiles/operational_system_group.dir/filecopy.c.o
+.PHONY : filecopy.c.o
 
-main.i: main.c.i
+filecopy.i: filecopy.c.i
 
-.PHONY : main.i
+.PHONY : filecopy.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operational_system_group.dir/build.make CMakeFiles/operational_system_group.dir/main.c.i
-.PHONY : main.c.i
+filecopy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operational_system_group.dir/build.make CMakeFiles/operational_system_group.dir/filecopy.c.i
+.PHONY : filecopy.c.i
 
-main.s: main.c.s
+filecopy.s: filecopy.c.s
 
-.PHONY : main.s
+.PHONY : filecopy.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operational_system_group.dir/build.make CMakeFiles/operational_system_group.dir/main.c.s
-.PHONY : main.c.s
+filecopy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operational_system_group.dir/build.make CMakeFiles/operational_system_group.dir/filecopy.c.s
+.PHONY : filecopy.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... operational_system_group"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... filecopy.o"
+	@echo "... filecopy.i"
+	@echo "... filecopy.s"
 .PHONY : help
 
 
