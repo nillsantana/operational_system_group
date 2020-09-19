@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/elivelton/CLionProjects/operational_system_group/filecopy.c" "/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles/operational_system_group.dir/filecopy.c.o"
+  "/home/elivelton/CLionProjects/operational_system_group/treecopy.c" "/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles/operational_system_group.dir/treecopy.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

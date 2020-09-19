@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/operational_system_group.dir/filecopy.c.o"
+  "CMakeFiles/operational_system_group.dir/treecopy.c.o"
   "operational_system_group"
   "operational_system_group.pdb"
 )

@@ -77,27 +77,27 @@ include CMakeFiles/operational_system_group.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/operational_system_group.dir/flags.make
 
-CMakeFiles/operational_system_group.dir/filecopy.c.o: CMakeFiles/operational_system_group.dir/flags.make
-CMakeFiles/operational_system_group.dir/filecopy.c.o: ../filecopy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/operational_system_group.dir/filecopy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/operational_system_group.dir/filecopy.c.o   -c /home/elivelton/CLionProjects/operational_system_group/filecopy.c
+CMakeFiles/operational_system_group.dir/treecopy.c.o: CMakeFiles/operational_system_group.dir/flags.make
+CMakeFiles/operational_system_group.dir/treecopy.c.o: ../treecopy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/operational_system_group.dir/treecopy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/operational_system_group.dir/treecopy.c.o   -c /home/elivelton/CLionProjects/operational_system_group/treecopy.c
 
-CMakeFiles/operational_system_group.dir/filecopy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operational_system_group.dir/filecopy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/elivelton/CLionProjects/operational_system_group/filecopy.c > CMakeFiles/operational_system_group.dir/filecopy.c.i
+CMakeFiles/operational_system_group.dir/treecopy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operational_system_group.dir/treecopy.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/elivelton/CLionProjects/operational_system_group/treecopy.c > CMakeFiles/operational_system_group.dir/treecopy.c.i
 
-CMakeFiles/operational_system_group.dir/filecopy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operational_system_group.dir/filecopy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/elivelton/CLionProjects/operational_system_group/filecopy.c -o CMakeFiles/operational_system_group.dir/filecopy.c.s
+CMakeFiles/operational_system_group.dir/treecopy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operational_system_group.dir/treecopy.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/elivelton/CLionProjects/operational_system_group/treecopy.c -o CMakeFiles/operational_system_group.dir/treecopy.c.s
 
 # Object files for target operational_system_group
 operational_system_group_OBJECTS = \
-"CMakeFiles/operational_system_group.dir/filecopy.c.o"
+"CMakeFiles/operational_system_group.dir/treecopy.c.o"
 
 # External object files for target operational_system_group
 operational_system_group_EXTERNAL_OBJECTS =
 
-operational_system_group: CMakeFiles/operational_system_group.dir/filecopy.c.o
+operational_system_group: CMakeFiles/operational_system_group.dir/treecopy.c.o
 operational_system_group: CMakeFiles/operational_system_group.dir/build.make
 operational_system_group: CMakeFiles/operational_system_group.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable operational_system_group"

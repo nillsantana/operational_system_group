@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/elivelton/CLionProjects/operational_system_group/filecopy.c
+/home/elivelton/CLionProjects/operational_system_group/treecopy.c
 stdio.h
 -
 stdlib.h
 -
 errno.h
 -
-unistd.h
+dirent.h
 -
-fcntl.h
+string.h
+-
+unistd.h
 -
 

@@ -76,7 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/elivelton/CLionProjects/operational_system_group/filecopy.c">
+		<Unit filename="/home/elivelton/CLionProjects/operational_system_group/treecopy.c">
 			<Option target="operational_system_group"/>
 		</Unit>
 		<Unit filename="/home/elivelton/CLionProjects/operational_system_group/CMakeLists.txt">
