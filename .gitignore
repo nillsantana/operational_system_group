@@ -1,5 +1,6 @@
-./*.out
+*.out
 file2.txt
 file1.txt
-./cmake-build-debug/*
-./.idea/*
+
+.idea/*
+/cmake-build-debug/
