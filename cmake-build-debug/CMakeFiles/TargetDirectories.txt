@@ -1,0 +1,3 @@
+/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/elivelton/CLionProjects/operational_system_group/cmake-build-debug/CMakeFiles/operational_system_group.dir
