@@ -12,17 +12,17 @@
 
 typedef struct error_handle {
     int code;
-    char** original_message;
-    char** translated_message;
-    char** category;
+    char *original_message;
+    char *translated_message;
+    char *category;
 } ErrorHandle;
 
 /*
  * A estrutura FileManagement organiza os arquivos de origem e destino para o tratamento de suas respectivas operacoes
  */
 typedef struct file_management {
-    char** file_src;
-    char** file_dst;
+    char *file_src;
+    char *file_dst;
 } FileManagement;
 
 /* A função checkFiles verifica se os arquivos existem no SO */
