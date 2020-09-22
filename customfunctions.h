@@ -13,8 +13,8 @@
  */
 typedef struct error_handle {
     int code;
-    char *translated_message;
     char *original_message;
+    char *translated_message;
     char *category;
 } ErrorHandle;
 
@@ -72,6 +72,10 @@ void writeFile(int source_file, int destination_file, char *buffer);
  * @destination: Diretório de destino
  */
 void checkDir(char *source, char *destination);
+
+/* Função que apresenta uma mensagem de erro traduzida, dado um codigo de erro (errno).
+ * */
+void messageError (int cod);
 
 
 #endif /* CUSTOMFUNCTIONS_H */
