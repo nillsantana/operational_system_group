@@ -3,4 +3,4 @@ project(project_so_01 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(operational_system_group treecopy.c)
+add_executable(operational_system_group filecopy.c)

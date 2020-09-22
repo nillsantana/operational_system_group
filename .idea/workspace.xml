@@ -20,12 +20,46 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a478c6c8-5005-4868-ab2e-81909fac371f" name="Default Changelist" comment="Treecopy with error">
+    <list default="true" id="a478c6c8-5005-4868-ab2e-81909fac371f" name="Default Changelist" comment="End of implementations">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erros_traducao.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/arquivo1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_A/Subdiretorio_A_A/arquivo2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_A/Subdiretorio_A_A/arquivo3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_A/Subtiretorio_A_B/arquivo4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_A/Subtiretorio_A_B/arquivo5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_A/arquivo1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_B/arquivo1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_B/arquivo2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_B/arquivo3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_B/arquivo4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_B/arquivo5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_C/Subdiretorio_C_A/arquivo1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_C/Subdiretorio_C_B/arquivo2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_C/Subdiretorio_C_C/arquivo3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_C/arquivo4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/Subdiretorio_C/arquivo5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/arquivo1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/arquivo2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/arquivo3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/arquivo4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_refs/copy_origem/arquivo5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/operational_system_group.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/operational_system_group" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/operational_system_group" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/project_so_01.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/project_so_01.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customfunctions.c" beforeDir="false" afterPath="$PROJECT_DIR$/customfunctions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customfunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/customfunctions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/filecopy.c" beforeDir="false" afterPath="$PROJECT_DIR$/filecopy.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/treecopy.c" beforeDir="false" afterPath="$PROJECT_DIR$/treecopy.c" afterDir="false" />
     </list>
@@ -50,24 +84,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_B" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test_refs" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_B" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_C" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_A" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/teste_" />
       <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_C/Subdiretorio_C_C" />
       <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_C/Subdiretorio_C_B" />
       <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_C/Subdiretorio_C_A" />
       <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_A/Subdiretorio_A_A" />
-      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_A/Subtiretorio_A_B" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_B" />
-      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_C" />
-      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem/Subdiretorio_A" />
-      <recent name="$PROJECT_DIR$/cmake-build-debug/copy_origem" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -76,14 +110,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operational_system_group" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="copy_origem copy_destino" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project_so_01" TARGET_NAME="operational_system_group" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project_so_01" RUN_TARGET_NAME="operational_system_group">
+    <configuration name="operational_system_group" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../test_refs/arquivo1.txt ../test_refs/arquivo2.txt" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project_so_01" TARGET_NAME="operational_system_group" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project_so_01" RUN_TARGET_NAME="operational_system_group">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -98,7 +127,12 @@
       <workItem from="1600439228131" duration="1449000" />
       <workItem from="1600451149185" duration="2618000" />
       <workItem from="1600462268932" duration="7624000" />
-      <workItem from="1600514286827" duration="40417000" />
+      <workItem from="1600514286827" duration="41073000" />
+      <workItem from="1600644693647" duration="2822000" />
+      <workItem from="1600713105965" duration="111000" />
+      <workItem from="1600723261446" duration="1618000" />
+      <workItem from="1600785144618" duration="9377000" />
+      <workItem from="1600803830354" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1600439266874</created>
@@ -149,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600552107458</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="End of implementations">
+      <created>1600564723496</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600564723496</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,73 +213,78 @@
     <MESSAGE value="Added new functions" />
     <MESSAGE value="filecopy finished partially" />
     <MESSAGE value="Treecopy with error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Treecopy with error" />
+    <MESSAGE value="End of implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of implementations" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600564333872">
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600801459686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600564333872" />
-    <state x="702" y="324" width="528" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600546611543">
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600801459686" />
+    <state x="702" y="324" width="528" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600785473779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="702" y="324" width="528" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600546611543" />
+    <state x="702" y="324" width="528" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600785473779" />
     <state x="743" y="227" width="424" height="578" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600520040292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="227" width="424" height="578" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600520040292" />
-    <state x="693" y="269" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600564248187">
+    <state x="693" y="269" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600796772765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="693" y="269" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600564248187" />
-    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1600470305227">
+    <state x="693" y="269" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600796772765" />
+    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1600786203329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600470305227" />
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1600564643338">
+    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600786203329" />
+    <state width="1878" height="242" key="GridCell.Tab.0.bottom" timestamp="1600802688158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600564643338" />
-    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1600564643338">
+    <state width="1878" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688158" />
+    <state width="1878" height="242" key="GridCell.Tab.0.center" timestamp="1600802688158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600564643338" />
-    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1600564643338">
+    <state width="1878" height="242" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688158" />
+    <state width="1878" height="242" key="GridCell.Tab.0.left" timestamp="1600802688157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600564643338" />
-    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1600564643338">
+    <state width="1878" height="242" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688157" />
+    <state width="1878" height="242" key="GridCell.Tab.0.right" timestamp="1600802688158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600564643338" />
-    <state width="1878" height="242" key="GridCell.Tab.1.bottom" timestamp="1600559309654">
+    <state width="1878" height="242" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688158" />
+    <state width="1878" height="242" key="GridCell.Tab.1.bottom" timestamp="1600802688159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600559309654" />
-    <state width="1878" height="242" key="GridCell.Tab.1.center" timestamp="1600559309654">
+    <state width="1878" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688159" />
+    <state width="1878" height="242" key="GridCell.Tab.1.center" timestamp="1600802688158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="242" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600559309654" />
-    <state width="1878" height="242" key="GridCell.Tab.1.left" timestamp="1600559309654">
+    <state width="1878" height="242" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688158" />
+    <state width="1878" height="242" key="GridCell.Tab.1.left" timestamp="1600802688158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="242" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600559309654" />
-    <state width="1878" height="242" key="GridCell.Tab.1.right" timestamp="1600559309654">
+    <state width="1878" height="242" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688158" />
+    <state width="1878" height="242" key="GridCell.Tab.1.right" timestamp="1600802688159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="242" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600559309654" />
-    <state x="464" y="154" key="SettingsEditor" timestamp="1600551642571">
+    <state width="1878" height="242" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600802688159" />
+    <state x="464" y="154" key="SettingsEditor" timestamp="1600566796213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600551642571" />
+    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600566796213" />
     <state x="689" y="256" width="540" height="524" key="StructurePopup" timestamp="1600542179850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="256" width="540" height="524" key="StructurePopup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600542179850" />
-    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1600552108830">
+    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1600564727163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600552108830" />
+    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600564727163" />
+    <state x="543" y="177" width="824" height="678" key="editAsTableFormatDialogDimension" timestamp="1600786273217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="543" y="177" width="824" height="678" key="editAsTableFormatDialogDimension/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1600786273217" />
     <state x="624" y="238" key="run.anything.popup" timestamp="1600544532447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,24 +298,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/treecopy2.c</url>
-          <line>19</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/treecopy2.c</url>
-          <line>27</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/teste.c</url>
+          <url>file://$PROJECT_DIR$/teste_/teste.c</url>
           <line>14</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/filecopy.c</url>
-          <line>138</line>
+          <line>37</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/teste_/read_file.c</url>
+          <line>24</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/teste_/test_string.c</url>
+          <line>10</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
