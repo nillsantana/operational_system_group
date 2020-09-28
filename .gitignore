@@ -1,6 +1,12 @@
+.idea/
 *.out
-file2.txt
-file1.txt
+*.o
 
-.idea/*
-/cmake-build-debug/*
+
+PP_01/*.out
+PP_01/*.o
+PP_02/*.out
+PP_02/*.o
+
+cmake-build-debug/*
+test_refs/

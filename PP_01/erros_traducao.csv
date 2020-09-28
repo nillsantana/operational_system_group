@@ -1,0 +1,133 @@
+1, Operação não permitida, Operation not permitted , EPERM
+2, Não existe esse arquivo ou diretório, No such file or directory, ENOENT
+3, Esse processo não existe, No such process, ESRCH
+4, Chamada de sistema interrompida, Interrupted system call, EINTR
+5, Erro de E / S, I/O error, EIO
+6, Não existe tal dispositivo ou endereço, No such device or address, ENXIO
+7, Lista de argumentos muito longa, Argument list too long, E2BIG
+8, Erro de formato de execução, Exec format error, ENOEXEC
+9, Número de arquivo inválido, Bad file number, EBADF
+10, Nenhum processo filho, No child processes, ECHILD
+11, Tente novamente, Try again, EAGAIN
+12, Sem memória, Out of memory, ENOMEM
+13, Permissão negada, Permission denied, EACCES
+14, Endereço incorreto, Bad address, EFAULT
+15, Dispositivo de bloqueio necessário, Block device required, ENOTBLK
+16, Dispositivo ou recurso ocupado, Device or resource busy, EBUSY
+17, Arquivo existe, File exists, EEXIST
+18, Link entre dispositivos, Cross-device link, EXDEV
+19, Dispositivo inexistente, No such device, ENODEV
+20, Não é um diretório, Not a directory, ENOTDIR
+21, É um diretório, Is a directory, EISDIR
+22, Argumento inválido, Invalid argument, EINVAL
+23, Estouro de tabela de arquivo, File table overflow, ENFILE
+24, Muitos arquivos abertos, Too many open files, EMFILE
+25, Não é uma máquina de escrever, Not a typewriter, ENOTTY
+26, Arquivo de texto ocupado, Text file busy, ETXTBSY
+27, Arquivo muito grande, File too large, EFBIG
+28, Sem espaço no dispositivo, No space left on device, ENOSPC
+29, Busca ilegal, Illegal seek, ESPIPE
+30, Sistema de arquivos somente leitura, Read-only file system, EROFS
+31, Muitos links, Too many links, EMLINK
+32, Tubo quebrado, Broken pipe, EPIPE
+33, Argumento matemático fora do domínio da função, Math argument out of domain of func, EDOM
+34, Resultado matemático não representável, Math result not representable, ERANGE
+35, Ocorreria impasse de recursos, Resource deadlock would occur, EDEADLK
+36, Nome de arquivo muito longo, File name too long, ENAMETOOLONG
+37, Nenhum bloqueio de registro disponível, No record locks available, ENOLCK
+38, Número da chamada de Sistema inválida, Invalid system call number,ENOSYS
+39, O diretório não está vazio, Directory not empty, ENOTEMPTY
+40, Vários links simbólicos encontrados, Too many symbolic links encountered, ELOOP
+41, A operação deveria ser bloqueada, Operation would block, EWOULDBLOCK EAGAIN
+42, Nenhuma mensagem do tipo desejado, No message of desired type, ENOMSG
+43, Identificador removido, Identifier removed, EIDRM
+44, Número do canal fora do alcance, Channel number out of range, ECHRNG
+45, Nível 2 não sincronizado, Level 2 not synchronized, EL2NSYNC
+46, Nível 3 travado, Level 3 halted, EL3HLT
+47, Nível 3 redefinido, Level 3 reset, EL3RST
+48, Número do link fora do intervalo, Link number out of range, ELNRNG
+49, Driver do protocolo não anexado, Protocol driver not attached, EUNATCH
+50, Estrutura CSI indisponível, No CSI structure available, ENOCSI
+51, Nível 2 travado, Level 2 halted, EL2HLT
+52, Troca inválida, Invalid exchange, EBADE
+53, Descritor de solicitação inválido, Invalid request descriptor, EBADR
+54, Troca cheia, Exchange full, EXFULL
+55, Sem ânodo, No anode, ENOANO
+56, Código de requisição inválido, Invalid request code, EBADRQC
+57, Slot inválido, Invalid slot, EBADSLT
+58, , , EDEADLOCK EDEADLK
+59, Formato de arquivo incompatível, Bad font file format, EBFONT
+60, O dispositivo não é um stream, Device not a stream, ENOSTR
+61, Nenhum dado disponível, No data available, ENODATA
+62, O tempo expirou, Timer expired, ETIME
+63, Recursos fora do stream, Out of streams resources, ENOSR
+64, A máquina não está na rede, Machine is not on the network, ENONET
+65, Pacote não instalado, Package not installed, ENOPKG
+66, Objeto remoto, Object is remote, EREMOTE
+67, O link foi cortado, Link has been severed, ENOLINK
+68, Erro de propaganda, Advertise error, EADV
+69, Erro de montagem, Srmount error, ESRMNT
+70, Erro ao enviar comunicação, Communication error on send, ECOMM
+71, Erro de protocolo, Protocol error, EPROTO
+72, Tentativa de multihop, Multihop attempted, EMULTIHOP
+73, Erro específico de RFS, RFS specific error, EDOTDOT
+74, Não é uma mensagem de dados, Not a data message, EBADMSG
+75, O valor é muito grande para o tipo de dado definido, Value too large for defined data type, EOVERFLOW
+76, O nome não é exclusivo na rede, Name not unique on network, ENOTUNIQ
+77, Descritor de arquivos incompatível, File descriptor in bad state, EBADFD
+78, Endereço remoto alterado, Remote address changed, EREMCHG
+79, Não foi possível acessar uma biblioteca necessária compartilhada, Can not access a needed shared library, ELIBACC
+80, O acesso a uma biblioteca compartilhada está corrompido, Accessing a corrupted shared library, ELIBBAD
+81, A biblioteca da sessão a.out está corrompida, .lib section in a.out corrupted, ELIBSCN
+82, Tentativa de vincular em diferentes bibliotecas compartilhadas, Attempting to link in too many shared libraries, ELIBMAX
+83, Não é possível executar uma biblioteca compartilhada diretamente, Cannot exec a shared library directly, ELIBEXEC
+84, Sequência de bytes inválidos, Illegal byte sequence, EILSEQ
+85, A interrupção da chamada de Sistema deve ser reiniciada, Interrupted system call should be restarted, ERESTART
+86, Erro no canal de streams, Streams pipe error, ESTRPIPE
+87, Muitos usuários, Too many users, EUSERS
+88, Operação de soquetes em não soquetes, Socket operation on non-socket, ENOTSOCK
+89, O Endereço de destino é obrigatório, Destination address required, EDESTADDRREQ
+90, Mensagem muito longa, Message too long, EMSGSIZE
+91, Tipo de protocolo inválido para o soquete, Protocol wrong type for socket, EPROTOTYPE
+92, Protocolo não disponível, Protocol not available, ENOPROTOOPT
+93, Protocolo não compatível, Protocol not supported, EPROTONOSUPPORT
+94, O tipo de soquete não é compatível, Socket type not supported, ESOCKTNOSUPPORT
+95, Operação não suportada pelo terminal de transporte, Operation not supported on transport endpoint, EOPNOTSUPP
+96, Família de protocolo não compatível, Protocol family not supported, EPFNOSUPPORT
+97, Família de endereços não suportada pelo protocolo, Address family not supported by protocol, EAFNOSUPPORT
+98, O endereço já está em uso, Address already in use, EADDRINUSE
+99, Não é possível identificar o endereço indicado, Cannot assign requested address, EADDRNOTAVAIL
+100, A rede está fora do ar, Network is down, ENETDOWN
+101, A rede está inacessível, Network is unreachable, ENETUNREACH
+102, A conexão da rede caiu devido à redefinição, Network dropped connection because of reset, ENETRESET
+103, Um Software causou interrupção da conexão, Software caused connection abort, ECONNABORTED
+104, Conexão redefinida por par, Connection reset by peer, ECONNRESET
+105, Nenhum espaço de buffer disponível, No buffer space available, ENOBUFS
+106, O Endpoint de transporte já está conectado, Transport endpoint is already connected, EISCONN
+107, O Endpoint de transporte não está conectado, Transport endpoint is not connected, ENOTCONN
+108, Não é possível enviar após o desligamento do endpoint de  transporte, Cannot send after transport endpoint shutdown, ESHUTDOWN
+109, Muitas referências: não é possível unir, Too many references: cannot splice, ETOOMANYREFS
+110, A conexão expirou, Connection timed out, ETIMEDOUT
+111, Conexão recusada, Connection refused, ECONNREFUSED
+112, O host está fora do ar, Host is down, EHOSTDOWN
+113, Nenhuma rota para o host, No route to host, EHOSTUNREACH
+114, A operação já está em andamento, Operation already in progress, EALREADY
+115, Operação em andamento agora, Operation now in progress, EINPROGRESS
+116, Identificador de arquivo obsoleto, Stale file handle, ESTALE
+117, A estrutura precisa de limpeza, Structure needs cleaning, EUCLEAN
+118, XENIX não é um arquivo de tipo nomeado, Not a XENIX named type file, ENOTNAM
+119, Sem semáforos XENIX disponíveis, No XENIX semaphores available, ENAVAIL
+120, É um arquivo de tipo nomeado, Is a named type file, EISNAM
+121, Erro de entrada e saída remota, Remote I/O error, EREMOTEIO
+122, Cota excedida, Quota exceeded, EDQUOT
+123, Nenhuma mídia encontrada, No medium found, ENOMEDIUM
+124, Tipo de meio errado, Wrong medium type, EMEDIUMTYPE
+125, Operação cancelada, Operation Canceled, ECANCELED
+126, A Chave requirida não está disponível, Required key not available, ENOKEY
+127, A chave expirou, Key has expired, EKEYEXPIRED
+128, A chave foi revogada, Key has been revoked, EKEYREVOKED
+129, A chave foi rejeitada pelo serviço, Key was rejected by service, EKEYREJECTED
+130, O dono morreu, Owner died, EOWNERDEAD
+131, Estado não recuperável, State not recoverable, ENOTRECOVERABLE
+132, Operação não disponível devido ao RF-kill, Operation not possible due to RF-kill, ERFKILL
+133, Erro de hardware na página de memória, Memory page has hardware error, EHWPOISON
