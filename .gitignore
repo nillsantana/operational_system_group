@@ -9,4 +9,4 @@ PP_02/*.out
 PP_02/*.o
 
 cmake-build-debug/*
-test_refs/
+test_refs/*

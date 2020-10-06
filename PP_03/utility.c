@@ -53,7 +53,7 @@ void *calcPrimeNumbers(void *threadarg) {
     int i, primes = 0;
     n_max = (int *) threadarg;
 
-    for (i = 0; i <= *n_max; i++) {
+    for (i = 2; i <= *n_max; i++) {
         if(isPrimeNumber(i)){
             printf("%d ", i);
             primes++;

@@ -3,10 +3,9 @@
 for i in 1 2 4 8 16 32;
 #for i in 2;
   do
-    for j in $(seq 1 5);
+    for j in $(seq 1 10);
       do
-#        echo "Thread $i exec $j"
-        ./multmatriz.o $i 100 100
-#        ./calcpi.o $i
+#        ./multmatriz.o $i 1000 1000
+        ./calcpi.o $i
       done
   done

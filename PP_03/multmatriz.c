@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include <sys/time.h>
+#include <time.h>
+#include <math.h>
 
 #include <memory.h>
 
@@ -36,14 +37,16 @@ MatrixData *makeMatrix(int rows, int cols) {
     matrix = malloc(sizeof(MatrixData) + 1);
     matrix->rows = rows;
     matrix->cols = cols;
+//    srand(time(NULL));   // Só deve ser chamada uma única vez
     int **data = malloc(sizeof(long *) * (rows*cols));
     for (int x = 0; x < rows; x++) {
         data[x] = malloc(sizeof(double *) * cols + 1);
         for (int y = 0; y < cols; y++) {
             /* Gera os números aleatórios em um intervalo controlado (1 a 100) */
-            int current = (1 +(rand() % 100));
+            int r_number = (1 + (rand() % 100));      // Retorna um número inteiro pseudo-aleatório entre 0 and RAND_MAX
+//            int current = 5;
 //            data[x][y] = (int) malloc(sizeof(current) + 1);
-            data[x][y] = current;
+            data[x][y] = r_number;
         }
     }
     matrix->data = data;
@@ -59,8 +62,8 @@ void *calcMatrix(void *rank) {
     int local_rank = *(int *) rank;         /* Variável local para ranking*/
     int rows = A->rows;
     int cols = A->cols;
-    C->data = malloc(sizeof(double *) * (rows * cols) + 1);
-//    C.data = calloc(rows * cols, sizeof(double *) * (rows * cols));
+//    int **data = malloc(sizeof(double *) * (rows * cols) + 1);
+//    C->data = malloc(sizeof(double *) * (rows * cols) + 1);
 
     int n = rows / NUM_THREADS;
 
@@ -70,12 +73,30 @@ void *calcMatrix(void *rank) {
 //    printf("thread[%d] first_i[%lld] last[%lld]\n", local_rank, first_row, last_row);
 
     for (long long row = first_row; row < last_row; row++) {
-        C->data[row] = malloc(sizeof(double *) * cols + 1);
+//        data[row] = malloc(sizeof(double *) * cols + 1);
+//        C->data[row] = malloc(sizeof(double *) * cols + 1);
         for (long long col = 0; col < cols; col++) {
+//            data[row][col] = A->data[row][col] * B->data[row][col];
+//            printf("\t[%lld][%lld] |", col, row);
             C->data[row][col] = A->data[row][col] * B->data[row][col];
         }
     }
+//    printf("%d\n\n", C->data[first_row][0]);
+//    C->data = (int **) data;
     pthread_exit((void *) rank);
+}
+
+/**
+ *
+ * @param matrix
+ */
+void printMatrix(MatrixData *matrix){
+    for (int x = 0; x < matrix->rows; x++){
+        printf("%s", "\n");
+        for(int y = 0; y < matrix->cols; y++){
+            printf("%d\t", matrix->data[x][y]);
+        }
+    }
 }
 
 /**
@@ -94,7 +115,7 @@ int main(int argc, char *argv[]) {
         rows = strtol(argv[2], &argv[2], 10);
         cols = strtol(argv[3], &argv[3], 10);
     }
-    MatrixData matrix_tmp = {.cols=cols, .rows=rows, .data=malloc(sizeof(MatrixData *) + 1)};
+//    MatrixData matrix_tmp = {.cols=cols, .rows=rows, .data=malloc(sizeof(MatrixData *) + 1)};
     pthread_t thread_list[NUM_THREADS];                     /* Define uma lista de threads */
     thread = malloc(sizeof(T *) * NUM_THREADS + 1);    /* Realiza a alocação dinâmica das threads T[0, ..., n] */
     pthread_attr_t attr;
@@ -104,7 +125,10 @@ int main(int argc, char *argv[]) {
 
     A = makeMatrix(rows, cols);
     B = makeMatrix(rows, cols);
-    C = malloc(sizeof(MatrixData) + 1);
+    C = makeMatrix(rows, cols);
+//    C = malloc(sizeof(MatrixData) + 1);
+//    C->cols = cols;
+//    C->rows = rows;
 
     /* Initialize and set thread detached attribute */
     pthread_attr_init(&attr);
@@ -134,6 +158,13 @@ int main(int argc, char *argv[]) {
         }
         t_id++;
     }
+//    printf("MATRIZ A\n");
+//    printMatrix(A);
+//    printf("MATRIZ B\n");
+//    printMatrix(B);
+//    printf("MATRIZ C\n");
+//    printMatrix(C);
+
     free(A);
     free(B);
     free(C);
