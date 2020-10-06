@@ -19,7 +19,7 @@ T **threadI;                     /* Estrutura global de T */
 int count = 0;
 
 /**
- * @brief Função que calcula um valor parcial de PI e armazena em uma estrutura global T (result)
+ * @brief Função que calcula um valor parcial de PI e armazena em uma estrutura global T (threadI)
  * @param rank Identificador da Thread
  * @return Sem retorno
  */
@@ -109,10 +109,6 @@ int main(int argc, char *argv[]) {
 //    printf("Resultado: %.16f\n", pi);
 //    printf("Tempo de execucao (ms): %ld\n", GET_MS(t_start, t_stop)); //Tempo em milisegundos
 
-//    printf("inicial[%ld] final[%ld] total[%ld]\n", t_start.tv_usec, t_stop.tv_usec, (t_stop.tv_usec - t_start.tv_usec));
-//    printf("inicial[%ld] final[%ld] total[%ld]\n", t_start.tv_sec * 1000, t_stop.tv_sec * 1000, (t_stop.tv_sec * 1000 - t_start.tv_sec * 1000));
-
     printf("%d, %.12f, %ld\n", NUM_THREADS, pi, (t_stop.tv_sec * 1000 - t_start.tv_sec * 1000));
-//    printf("%d, %.12f, %ld\n", NUM_THREADS, pi, GET_MS(t_start, t_stop));
     return 0;
 }

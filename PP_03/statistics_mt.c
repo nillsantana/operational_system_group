@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
     if (input_result == NULL)
         return 0;
 
-    /* Initialize and set thread detached attribute */
+    /* Inicializa e configura a variável de atributo das threads */
     pthread_attr_init(&attr);
     pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
 
@@ -37,20 +37,19 @@ int main(int argc, char **argv) {
     int r_t3 = pthread_create(&threads[2], &attr, getMean, (void *) &lst);
 
     if (r_t1)
-        printf("ERROR; return code from pthread_create() is %d\n", r_t1);
+        printf("ERROR; o código retornado de pthread_create() é %d\n", r_t1);
     if (r_t2)
-        printf("ERROR; return code from pthread_create() is %d\n", r_t2);
+        printf("ERROR; o código retornado de pthread_create() é %d\n", r_t2);
     if (r_t3)
-        printf("ERROR; return code from pthread_create() is %d\n", r_t3);
+        printf("ERROR; o código retornado de pthread_create() é %d\n", r_t3);
 
-    /* Free attribute and wait for the other threads */
+    /* Libera o atributo da thread e aguarda pela finalização de outras threads */
     pthread_attr_destroy(&attr);
     for (int t = 0; t < NUM_THREADS; t++){
         rstatus = pthread_join(threads[t], &status);
         if(rstatus) {
-            printf("ERROR[%d]; return code from pthread_join() is %d\n", t, rstatus);
+            printf("ERROR[%d]; o código retornado de pthread_join() é %d\n", t, rstatus);
         }
-//        printf("Thread finalizada! %s\n", (char* ) status);
     }
 
     printf("O valor médio é %d\n", AVERAGE);

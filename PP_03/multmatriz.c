@@ -8,44 +8,44 @@
 
 #define DEFAULT_MATRIX 1000
 
+/* Estrutura de dados de uma matriz */
 typedef struct {
-    int rows;
-    int cols;
-    int **data;
+    int rows;                   /* número de linhas da matriz*/
+    int cols;                   /* número de colunas da matriz */
+    int **data;                 /* array de dados (M * N) */
 } MatrixData;
 
+/* Estrutura de dados de uma thread */
 typedef struct {
-    int rank;
+    int rank;                   /* identificador da thread */
 } T;
 
 /* Variáveis globais */
 int NUM_THREADS = 1;            /* Número de threads*/
-T **thread;                    /* Estrutura global de T */
+T **thread;                     /* Estrutura global de T */
 
-MatrixData *A;
+MatrixData *A;                  /* Definições das matrizes globais A, B e C */
 MatrixData *B;
 MatrixData *C;
 
 /**
- *
+ * @brief Constroi uma matriz M * N e preenche com números aleatórios
  * @param rows
  * @param cols
- * @return
+ * @return Uma matriz montada
  */
 MatrixData *makeMatrix(int rows, int cols) {
     MatrixData *matrix;
     matrix = malloc(sizeof(MatrixData) + 1);
     matrix->rows = rows;
     matrix->cols = cols;
-//    srand(time(NULL));   // Só deve ser chamada uma única vez
+//    srand(time(NULL));   // Seed do timestamp
     int **data = malloc(sizeof(long *) * (rows*cols));
     for (int x = 0; x < rows; x++) {
         data[x] = malloc(sizeof(double *) * cols + 1);
         for (int y = 0; y < cols; y++) {
             /* Gera os números aleatórios em um intervalo controlado (1 a 100) */
             int r_number = (1 + (rand() % 100));      // Retorna um número inteiro pseudo-aleatório entre 0 and RAND_MAX
-//            int current = 5;
-//            data[x][y] = (int) malloc(sizeof(current) + 1);
             data[x][y] = r_number;
         }
     }
@@ -54,41 +54,34 @@ MatrixData *makeMatrix(int rows, int cols) {
 }
 
 /**
- *
+ * @brief Realiza a multiplicação da matriz A com a matriz B, alocando os resultados em uma matriz C
  * @param rank
- * @return
+ * @return Sem retorno
  */
 void *calcMatrix(void *rank) {
-    int local_rank = *(int *) rank;         /* Variável local para ranking*/
+    int local_rank = *(int *) rank;             /* Variável local para ranking (identificador da thread T[i]) */
     int rows = A->rows;
     int cols = A->cols;
-//    int **data = malloc(sizeof(double *) * (rows * cols) + 1);
-//    C->data = malloc(sizeof(double *) * (rows * cols) + 1);
 
-    int n = rows / NUM_THREADS;
+    int n = rows / NUM_THREADS;                 /* Divide o número de linhas das matrizes pela quantidade de threads */
 
-    long long first_row = n * local_rank;     /* Ponto de partida da iteração */
+    long long first_row = n * local_rank;       /* Ponto de partida da iteração */
     long long last_row = first_row + n;         /* Ponto máximo de iteração */
 
 //    printf("thread[%d] first_i[%lld] last[%lld]\n", local_rank, first_row, last_row);
 
     for (long long row = first_row; row < last_row; row++) {
-//        data[row] = malloc(sizeof(double *) * cols + 1);
-//        C->data[row] = malloc(sizeof(double *) * cols + 1);
         for (long long col = 0; col < cols; col++) {
-//            data[row][col] = A->data[row][col] * B->data[row][col];
-//            printf("\t[%lld][%lld] |", col, row);
             C->data[row][col] = A->data[row][col] * B->data[row][col];
         }
     }
-//    printf("%d\n\n", C->data[first_row][0]);
-//    C->data = (int **) data;
     pthread_exit((void *) rank);
 }
 
 /**
- *
+ * @brief Imprime os dados de uma matriz
  * @param matrix
+ * @return Sem retorno
  */
 void printMatrix(MatrixData *matrix){
     for (int x = 0; x < matrix->rows; x++){
@@ -100,7 +93,7 @@ void printMatrix(MatrixData *matrix){
 }
 
 /**
- *
+ * @brief Método principal
  * @param argc
  * @param argv
  * @return
@@ -122,7 +115,7 @@ int main(int argc, char *argv[]) {
     void *status;
 
     t_start = clock();
-
+    /* inicializa as matrizes */
     A = makeMatrix(rows, cols);
     B = makeMatrix(rows, cols);
     C = makeMatrix(rows, cols);
@@ -145,7 +138,6 @@ int main(int argc, char *argv[]) {
         }
         t_id++;
     }
-//    printf("Juntando\n");
 
     /* Coloca as threads em "modo de espera" */
     t_id = 0;
@@ -154,7 +146,7 @@ int main(int argc, char *argv[]) {
         err_status = pthread_join(thread_list[t_id], &status);
         if (err_status) {
             printf("Não foi possível juntar a thread [%d]: %d\n", t_id, err_status);
-//            exit(EXIT_FAILURE);
+            exit(EXIT_FAILURE);
         }
         t_id++;
     }
@@ -164,7 +156,7 @@ int main(int argc, char *argv[]) {
 //    printMatrix(B);
 //    printf("MATRIZ C\n");
 //    printMatrix(C);
-
+    /* Libera a memória alocada dos ponteiros A, B e C */
     free(A);
     free(B);
     free(C);
@@ -172,8 +164,7 @@ int main(int argc, char *argv[]) {
     t_stop  = clock();
 
     long final_time = ((double) t_stop - t_start) / (CLOCKS_PER_SEC / 1000);
-
+    /*Imprime em tela os resultados da operação: NUM_THREADS, TOTAL_TIME_EXECUTION (ms)*/
     printf("%d, %ld\n", NUM_THREADS, final_time);
-
     exit(0);
 }

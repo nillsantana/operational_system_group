@@ -2,6 +2,11 @@
 
 extern int MIN, MAX, AVERAGE;
 
+/**
+ * @brief Calcula o valor médio de um dado conjunto de inteiros
+ * @param threadarg
+ * @return Sem retorno
+ */
 void *getMean(void *threadarg){
     int soma = 0;
     int current;
@@ -15,6 +20,11 @@ void *getMean(void *threadarg){
     pthread_exit((void*) threadarg);
 }
 
+/**
+ * @brief Encontra o valor mínimo de um dado conjunto de inteiros
+ * @param threadarg
+ * @return Sem retorno
+ */
 void *getMin(void *threadarg) {
     struct input_list *lst;
     lst = (struct input_list *) threadarg;
@@ -27,6 +37,11 @@ void *getMin(void *threadarg) {
     pthread_exit((void*) threadarg);
 }
 
+/**
+ * @brief Encontra o valor máximo de um dado conjunto de inteiros
+ * @param threadarg
+ * @return Sem retorno
+ */
 void *getMax(void *threadarg) {
     struct input_list *lst;
     lst = (struct input_list *) threadarg;
@@ -39,6 +54,11 @@ void *getMax(void *threadarg) {
     pthread_exit((void*) threadarg);
 }
 
+/**
+ * Verifica se um dado número é um primo
+ * @param number
+ * @return 1 para verdadeiro, 0 para falso
+ */
 int isPrimeNumber(int number){
     int prime = 1;
     for(int i = 2; i<= number / 2; i++){
@@ -48,6 +68,11 @@ int isPrimeNumber(int number){
     return prime;
 }
 
+/**
+ * @brief Exibe todos os números primos anteriores ou iguais à um dado número
+ * @param threadarg
+ * @return Sem retorno
+ */
 void *calcPrimeNumbers(void *threadarg) {
     int *n_max;
     int i, primes = 0;
