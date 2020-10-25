@@ -62,7 +62,7 @@ void *calc_pi(void *rank) {
  * @return
  */
 int main(int argc, char *argv[]) {
-    struct timeval t_stop, t_start;
+    time_t t_stop, t_start;
     int t_id = 0;                                           /* identificador das threads */
     int err_status;                                         /* variável que recebe o status do erro */
     double pi = 0;
@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
 
     pthread_t thread_list[NUM_THREADS];                     /* Define uma lista de threads */
     threadI = malloc(sizeof(T *) * NUM_THREADS + 1);    /* Realiza a alocação dinâmica das threads T[0, ..., n] */
-    gettimeofday (&t_start, NULL );
+    t_start = clock();
 
     /* Inicializa as threads */
     while (t_id < NUM_THREADS) {
@@ -103,12 +103,14 @@ int main(int argc, char *argv[]) {
     }
     pi *= 4.0;                  /* Atribui o valor real de PI (já que a fórmula de Leibniz = pi/4) */
 
-    gettimeofday (&t_stop, NULL );
+    t_stop  = clock();
+    long final_time = ((double) t_stop - t_start) / (CLOCKS_PER_SEC / 1000);
 
 //    printf("Número de threads: %d\n", NUM_THREADS);
 //    printf("Resultado: %.16f\n", pi);
 //    printf("Tempo de execucao (ms): %ld\n", GET_MS(t_start, t_stop)); //Tempo em milisegundos
 
-    printf("%d, %.12f, %ld\n", NUM_THREADS, pi, (t_stop.tv_sec * 1000 - t_start.tv_sec * 1000));
+//    printf("%d, %.12f, %ld\n", NUM_THREADS, pi, (t_stop.tv_sec * 1000 - t_start.tv_sec * 1000));
+    printf("%d, %.12f, %ld\n", NUM_THREADS, pi, final_time);
     return 0;
 }
