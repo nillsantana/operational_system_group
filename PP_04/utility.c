@@ -6,4 +6,4 @@
                 Sistemas Operacionais (MAT566)
 *******************************************************************************/
 
-#include "utility.c"
+#include "utility.h"

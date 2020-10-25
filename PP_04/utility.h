@@ -6,4 +6,12 @@
                 Sistemas Operacionais (MAT566)
 *******************************************************************************/
 
-#include "utility.c"
+#ifndef UTILITY_H
+#define UTILITY_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <semaphore.h>
+
+#endif //UTILITY_H
